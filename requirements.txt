@@ -2,3 +2,7 @@ pandas
 numpy
 seaborn
 matplotlib
+mysql-connector-python
+streamlit
+python-dotenv
+sqlalchemy

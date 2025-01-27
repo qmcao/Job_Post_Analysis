@@ -1,0 +1,12 @@
+prefix=d:/project/Job_Posting_Analysis/venv/Library
+exec_prefix=d:/project/Job_Posting_Analysis/venv/Library
+libdir=d:/project/Job_Posting_Analysis/venv/Library/lib
+includedir=d:/project/Job_Posting_Analysis/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
